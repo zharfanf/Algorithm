@@ -1,3 +1,5 @@
+# No limit space
+
 class node:
 
 	def __init__(self, value, next=None):
