@@ -1,4 +1,4 @@
-def bubblesort_test(arr):
+def bubblesort(arr):
 	for i in range(len(arr)-1,-1,-1):
 		pivot = arr[-1]
 		for j in range(len(arr)-2,len(arr)-2-i,-1):
